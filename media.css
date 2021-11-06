@@ -1,0 +1,157 @@
+@media screen and (max-width: 400px) {
+    .nav {
+        display: none;
+    }
+    .wrapper {
+        padding: 0;
+    }
+    .header {
+        padding: 20px 14px;
+    }
+    .logo>img {
+        width: 60px;
+    }
+    .hamburger {
+        display: flex;
+    }
+    .header__afisha h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__afisha h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__afisha p::after, .header__afisha p::before {
+        display: none;
+    }
+    .header__afisha p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .history__blocks {
+        flex-wrap: wrap;
+        row-gap: 14px;
+        justify-content: center;
+        left: 0;
+    }
+    .block {
+        width: 290px;
+        height: 276px;
+        box-sizing: border-box;
+    }
+    .block p {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .history_content {
+        padding: 825px 0 122px 0;
+        flex-direction: column;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content h3 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .content>p {
+        width: 290px;
+        height: 341px;
+    }
+    .bar {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .history__img>img {
+        width: 350px;
+        padding: 200px 0;
+    }
+
+
+    .zakaz {
+        padding: 20px;
+        flex-direction: column;
+    }
+    .zakaz_h h2 {
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 34px;
+        text-align: center;
+        width: 200px;
+        margin: 0 auto 21px;
+    }
+    .zakaz_h p {
+        width: 290px;
+        text-align: center;
+        padding-bottom: 41px;
+    }
+
+
+
+    .menu {
+        padding: 63px 0 100px ;
+    }
+    .menu>h3 {
+        width: 200px;
+        margin: 0 auto;
+    }
+    .menu__menu {
+        flex-direction: column;
+        padding-top: 72px;
+    }
+    .menu__img {
+        overflow: hidden;
+        padding-bottom: 50px;
+    }
+    .burger_img {
+        row-gap: 87px;
+    }
+
+
+
+    .fastfood {
+        padding: 60px 0 100px;
+        overflow: hidden;
+    }
+    .fastfood__menu {
+        padding-top: 98px;
+    }
+
+
+    .reviews {
+        padding: 11px 5px 26px;
+    }
+    .reviews>h4 {
+        width: 290px;
+    }
+
+
+    .gallery_restoran img {
+        width: 330px;
+    }
+    .gallery>h3 {
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 71px 0 80px;
+    }
+    .gallery_restoran {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .left_bot, .right_top {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .left_top, .right_bot {
+    }
+    .gallery_personal {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
